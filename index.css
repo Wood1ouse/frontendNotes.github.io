@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+#ListSpace {
+    float: left;
+    background-color: #1C1C1E;
+    width: 20%;
+    height: 1200px;
+    border: 2px solid #E68A00;
+    border-top: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#inputField {
+    float: left;
+    background-color: #1C1C1E;
+    width: 80%;
+    height: 1200px;
+    border-left: 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#title {
+    width: 317px;
+    height: 36px;
+    padding: 0px 0px 0px 5px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 7px;
+    border-color: transparent;
+    margin-top: 15px;
+    background-color: #2C2C2C;
+    box-shadow: none;
+    font: 20pt/20pt "Trebuchet MS";
+    color: #E68A00;
+}
+
+#saveButton {
+    font-weight: 600;
+    width: 317px;
+    height: 36px;
+    color: black;
+    padding: 0px 0px 0px 5px;
+    font-weight: 100;
+    border-radius: 10px;
+    margin-left: 7px;
+    border-color: transparent;
+    margin-top: 15px;
+    background-color: #e68a00;
+    box-shadow: none;
+}
+
+#delButton {
+    width: 317px;
+    height: 36px;
+    color: black;
+    padding: 0px 0px 0px 5px;
+    font-weight: 100;
+    border-radius: 10px;
+    margin-left: 7px;
+    border-color: transparent;
+    margin-top: 10px;
+    background-color: #e68a00;
+    box-shadow: none;
+}
+
+#content {
+    margin-left: 7px;
+    padding: 15px 0px 0px 5px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: none;
+    background-color: #2C2C2C;
+    font: 20pt/10pt "Trebuchet MS";
+    font-weight: 100;
+    color: white;
+    width: 90%;
+    height: 1130px;
+    line-height: 1.2;
+}
+
+#ListSpace {
+    margin: 0;
+    padding: 0;
+}
+
+#notesList {
+    padding: 0;
+    margin: 0;
+}
+
+#addButton {
+    height: 20px;
+    width: 100px;
+    margin: 20px -50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: black;
+    padding: 0px 0px 0px 5px;
+    font-weight: 100;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #e68a00;
+    box-shadow: none;
+    font: 10pt/10pt "Trebuchet MS";
+}
+
+.Note {
+    color: white;
+    border: 2px solid #E68A00;
+    border-right: 0;
+    border-left: 0;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    font: 10pt/10pt "Trebuchet MS";
+}
+
+.Note:hover, .Note-Selected {
+    background-color: #e68a00;
+    color: black;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="loadAllNotes()">
+    <div id="wrapper">
+        <div id="ListSpace">
+            <button id="addButton" onclick="noteAdd()">Add</button>
+            <ul id="notesList">
+            </ul>
+        </div>
+        <div>
+            <div id="inputField">
+                <div>
+                    <input placeholder="Title" id="title" type="text">
+                    <button id="saveButton" onclick="saveAllNotes()"><img src="images/diskette.png"></button>
+                    <button id="delButton" onclick="noteDel()"><img src="images/delete.png"></button>
+                    <textarea placeholder="Content" id="content"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template id="noteTemplate">
+        <li class="Note" onclick="noteSel(this)">
+            <div class="noteName">
+                <h1></h1>
+            </div>
+            <div class="noteDate">
+                <h1></h1>
+            </div>
+        </li>
+    </template>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
